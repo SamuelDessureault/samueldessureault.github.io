@@ -16,5 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <li><a href="https://www.facebook.com/profile.php?id=100009272918136">Facebook</a></li> \
         </ul> \
     </div> \
-    <h6>&copy Samuel Dessureault 2022</h6>`
+    <h6>&copy Samuel Dessureault, 2022 <br/>
+        Published on GitHub</h6>`
 })
