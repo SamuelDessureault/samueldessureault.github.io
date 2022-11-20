@@ -9,10 +9,12 @@ document.addEventListener("DOMContentLoaded", () => {
     </ul>`
 
     footer.innerHTML = ` \
-    <h3>Contacts</h3> \
-    <ul> \
-        <li><a href="mailto:samueldessureault15@gmail.com">Email</a></li> \
-        <li><a href="https://www.facebook.com/profile.php?id=100009272918136">Facebook</a></li> \
-    </ul> \
+    <div id="contacts"> \
+        <h3>Contacts</h3> \
+        <ul> \
+            <li><a href="mailto:samueldessureault15@gmail.com">Email</a></li> \
+            <li><a href="https://www.facebook.com/profile.php?id=100009272918136">Facebook</a></li> \
+        </ul> \
+    </div> \
     <h6>&copy Samuel Dessureault 2022</h6>`
 })

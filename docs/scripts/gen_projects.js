@@ -7,12 +7,12 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log(json)
         json.projects.forEach((proj) => {
             projectsSect.innerHTML += `\
-            <div id="proj${proj.id}"> \
+            <div class="projItem" id="proj${proj.id}"> \
                 <img src="${proj.img_src}" alt="${proj.img_alt}"> \
                 <div> \
                     <h2>${proj.title}</h2> \
                     <p>${proj.description}</p> \
-                    <a href="${proj.link}"></a> \
+                    <a href="${proj.link}">Check the repo here...</a> \
                 </div> \
             </div>`
         });

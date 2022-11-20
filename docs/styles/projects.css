@@ -1,0 +1,30 @@
+#projects-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 5%;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem 0;
+}
+
+.projItem {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#projects img {
+    width: 450px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transform: rotate(-2deg);
+}
+
+.projItem:nth-child(2n) {
+    flex-direction: row-reverse;
+    text-align: end;
+}
