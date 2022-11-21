@@ -22,6 +22,8 @@
     border: 1px solid black;
     border-radius: 10px;
     transform: rotate(-2deg);
+    box-shadow: 3px 3px rgb(41, 84, 122);
+
 }
 
 .projItem:nth-child(2n) {
