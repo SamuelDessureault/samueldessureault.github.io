@@ -15,6 +15,14 @@
             "link": "https://itch.io/jam/udem-game-jam-2024/rate/2604745",
             "img_src": "./img/the-hungry-pufferfish.png",
             "img_alt": "The Hungry Pufferfish"
+        },
+        {
+            "id": 2,
+            "title": "Container Farm Management",
+            "description": "This application was created with a team of classmates as my final project in John Abbott College. Created with .NET MAUI, this application lets you connect to a physical container farm using Microsoft Azure's cloud computing technology, monitor its sensors and control its lock, alarm and lights.",
+            "link": "https://github.com/SamuelDessureault/Container-Farm-Management",
+            "img_src": "./img/container-farm-management.png",
+            "img_alt": "Container Farm Management"
         }
     ]
 }
