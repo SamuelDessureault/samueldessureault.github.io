@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <h3>Contacts</h3> \
         <ul> \
             <li><a href="mailto:samueldessureault15@gmail.com">Email</a></li> \
-            <li><a href="https://www.facebook.com/profile.php?id=100009272918136">Facebook</a></li> \
+            <li><a href="https://www.linkedin.com/in/samuel-dessureault/">LinkedIn</a></li> \
         </ul> \
     </div> \
     <h6>&copy Samuel Dessureault, 2024 <br/>
