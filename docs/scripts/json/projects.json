@@ -7,6 +7,14 @@
             "link": "https://github.com/SamuelDessureault/ConnectingTheDots",
             "img_src": "./img/connecting-the-dots.png",
             "img_alt": "Connecting the Dots"
+        },
+        {
+            "id": 2,
+            "title": "The Hungry Pufferfish",
+            "description": "This game was made in the Unity Engine in less then 24 hours for the 2024 UdeM Game Jam. You play as a pufferfish tumbling down a series of hills, eating shrimps along the way to grow bigger in size. The heavier you are, the more chances you have to pass the various gates in your way. \nBy using Unity's 2D physics engine, this game is meant to better understand the concept and application of momentum for University of Montreal's students.",
+            "link": "https://itch.io/jam/udem-game-jam-2024/rate/2604745",
+            "img_src": "./img/the-hungry-pufferfish.png",
+            "img_alt": "The Hungry Pufferfish"
         }
     ]
 }
