@@ -17,7 +17,7 @@
             "img_alt": "The Hungry Pufferfish"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "Container Farm Management",
             "description": "This application was created with a team of classmates as my final project in John Abbott College. Created with .NET MAUI, this application lets you connect to a physical container farm using Microsoft Azure's cloud computing technology, monitor its sensors and control its lock, alarm and lights.",
             "link": "https://github.com/SamuelDessureault/Container-Farm-Management",
