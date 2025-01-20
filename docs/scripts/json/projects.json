@@ -30,7 +30,7 @@
             "description": "This application was created with a team of classmates as a project in John Abbott College. Created in Java with Android Studio, this application lets you see a mock storefront for a farmer's market. Users are allowed to look at a list of produce as well as add and remove items from the store. This is all implemented with an SQL database embedded into the Android device.",
             "link": "https://github.com/F2022-AppDev-II/project-farmer-s-market-app",
             "img_src": "",
-            "img_alt": "Android Storeefront Application"
+            "img_alt": "Android Storefront Application"
         }
     ]
 }
