@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
             <li><a href="https://www.linkedin.com/in/samuel-dessureault/">LinkedIn</a></li> \
         </ul> \
     </div> \
-    <h6>&copy Samuel Dessureault, 2024 <br/>
+    <h6>&copy Samuel Dessureault, 2025 <br/>
         Published on GitHub</h6>`
 })
