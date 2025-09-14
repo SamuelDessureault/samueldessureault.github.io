@@ -2,16 +2,16 @@
     "projects": [
         {
             "id": 1,
-            "title": "Connecting the Dots",
-            "description": "This project is a test demo build of a minigame where you place clues, represented by cards, onto a board and attach them to each other with a rope. Every clue is either related or contradicts eachother and it is the player's job to connect everything together with the ropes and solve the mystery! If 2 clues are related to eachother (ex. an apple and an orange are both fruits), the rope connecting them will turn green. If they contradict eachother (ex. an apple is a fruit and a carrot is a vegetable), the rope will turn red. However, if they have nothing to do with eachother (ex. an apple and a car), the rope will disappear and the player will lose health.",
-            "link": "https://github.com/SamuelDessureault/ConnectingTheDots",
-            "img_src": "./img/connecting-the-dots.png",
-            "img_alt": "Connecting the Dots"
+            "title": "Cave Echoes",
+            "description": "This game was made in the Unity Engine in less then 7 days for the Brackeys 2025.2 Game Jam. You are a starving fruit bat, taking a risk to eat some legendary berries that only grow inside a dark, dangerous cave full of obstacles, tight tunnels, and vicious enemies. Use echolocation to clear your way and stay out of danger. You get hit once, and it's back to the start of the level. I led the development of this game as the Lead Programmer",
+            "link": "https://itch.io/jam/brackeys-14/rate/3848724",
+            "img_src": "./img/KHSCng.png",
+            "img_alt": "Cave Echoes"
         },
         {
             "id": 2,
             "title": "The Hungry Pufferfish",
-            "description": "This game was made in the Unity Engine in less then 24 hours for the 2024 UdeM Game Jam. You play as a pufferfish tumbling down a series of hills, eating shrimps along the way to grow bigger in size. The heavier you are, the more chances you have to pass the various gates in your way. \nBy using Unity's 2D physics engine, this game is meant to better understand the concept and application of momentum for University of Montreal's students.",
+            "description": "This game was made in the Unity Engine in less then 48 hours for the 2024 UdeM Game Jam. You play as a pufferfish tumbling down a series of hills, eating shrimps along the way to grow bigger in size. The heavier you are, the more chances you have to pass the various gates in your way. \nBy using Unity's 2D physics engine, this game is meant to better understand the concept and application of momentum for University of Montreal's students.",
             "link": "https://itch.io/jam/udem-game-jam-2024/rate/2604745",
             "img_src": "./img/the-hungry-pufferfish.png",
             "img_alt": "The Hungry Pufferfish"
