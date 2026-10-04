@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Germstones",
             "description": "This game was made in the Unity Engine in less then 7 days for the Brackeys 2026.2 Game Jam. You play as an operator at a command line terminal, giving commands to a rover on the moon, where you need to collect valuable rocks. Some rocks are infected, however. If you pickup an infected rock, your rover will start losing health on every command. Some commands also increase the chance of a rock getting infected. Get as many rocks as you can before the infection takes control. I participated in the game's development as a programmer where I implemented the command system, the map design, and the infection system.",
-            "link": "https://github.com/F2022-AppDev-II/project-farmer-s-market-app",
+            "link": "./germstone.html",
             "img_src": "./img/germstones-img.png",
             "img_alt": "Germstones"
         },
