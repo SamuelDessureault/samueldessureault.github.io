@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel Dessureault - Germstones</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/germstones.css">
+    <link rel="stylesheet" href="./styles/presentation.css">
+</head>
+<body>
+    <nav id="navbar"></nav>
+
+    <main id="presentation-page">
+        <div id="hero-section">
+            <div class="content">
+                <h1>Germstones</h1>
+                <a href="https://jbeegan.itch.io/germstones">Play the game here</a>
+            </div>
+        </div>
+        <div id="text-section">
+            <section class="text">
+                <article>
+                    <h2>About The Game</h2>
+                    <p>This game was made in the Unity Engine in less then 7 days for the Brackeys 2026.2 Game Jam. You play as an operator at a command line terminal, giving commands to a rover on the moon, where you need to collect valuable rocks. Some rocks are infected, however. If you pickup an infected rock, your rover will start losing health on every command. Some commands also increase the chance of a rock getting infected. Get as many rocks as you can before the infection takes control. </p>
+                </article>
+            </section>
+            <section class="text-with picture left">
+                <article>
+                    <h2>My Contributions</h2>
+                    <p>I participated in the game's development as a programmer where I implemented the command system, the map design, and the infection system.</p>
+                </article>
+                <img src="./img/germstones-img.png">
+            </section>
+            <section class="text-with picture right">
+                <article>
+                    <h2>Command System (Pt. 1)</h2>
+                    <p>When entering a command in the terminal, the player creates a command object to send to the command manager. The commands objects are created with an interface called "ICommand". When receiving a command object, the command manager executes the command, then connects to the terminal and prints the results.</p>
+                </article>
+                <img src="./img/Germstones/command.png">
+            </section>
+            <section class="text-with picture left">
+                <article>
+                    <h2>Command System (Pt. 2)</h2>
+                    <p>To parse the terminal commands into command object, I made a command factory. First, the factory obtains all dependecies it needs for more complex systems (Ex: Camera system). Second, the terminal command gets passed as an array of strings, labeled as arguments. Third, the command objects are then created by the factory based on what arguments have been passed.</p>
+                </article>
+                <img src="./img/Germstones/command-factory.png">
+            </section>
+            <section class="clip">
+                <video width="500", height="300" controls>
+                    <source src="./img/Germstones/command_video.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section class="text-with picture left">
+                <article>
+                    <h2>Game Map (Pt. 1)</h2>
+                    <p>The map the robot interacts with is a 2D tile-based map. The concrete map implementation uses the "IMap2D" interface. The map tiles used the "IMapSlot" interface. The "MapGenerator" class makes sure each type of rock you can find is fairly distributed on the map using Pseudo-Random Distribution.</p>
+                </article>
+                <img src="./img/Germstones/map.png">
+            </section>
+            <section class="picture">
+                <img src="./img/Germstones/map-generator.png">
+            </section>
+            <section class="text-with picture right">
+                <article>
+                    <h2>Game Map (Pt. 2)</h2>
+                    <p>The IMap2D interface has a filtering method that searches for any point of interest on the map in a certain range and a certain point. When finding a point of interest, the method returns the data found and its position inside a callback method. Within that callback method, the user can parse the data found.</p>
+                </article>
+                <img src="./img/Germstones/map-filter.png">
+            </section>
+            <section class="text-with picture left">
+                <article>
+                    <h2>Game Map (Pt. 3)</h2>
+                    <p>In this example, in the "DetectCommand" class, we want to search all rocks in the vicinity of the robot and log their location. By using the map's filtering method, we can put the data in a wrapper object. The method then returns a list of that wrapper object to use for future operations in the command execution.</p>
+                </article>
+                <img src="./img/Germstones/map-filter-example.png">
+            </section>
+            <section class="picture">
+                <img src="./img/Germstones/map-filter-game-manager.png">
+            </section>
+            <section class="picture">
+                <img src="./img/Germstones/map-img.png">
+            </section>
+            <section class="text-with clip left">
+                <article>
+                    <h2>Infection System (Pt. 1)</h2>
+                    <p>When inputing certain commands in the terminal (Ex: "pickup", "camera"), the infection meter at the bottom right of the terminal will go up. Once the meter is full, a random rock on the map will become infected. The meter will then reset and show the number of infected rocks a the bottom.</p>
+                </article>
+                <video width="500", height="300" controls>
+                    <source src="./img/Germstones/rock-infection.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section class="text-with clip right">
+                <article>
+                    <h2>Infection System (Pt. 2)</h2>
+                    <p> When the robot picks up an infected rock, it will start taking gradual damage for every future command. The more infected rocks you collect, the more damage you take every command.</p>
+                </article>
+                <video width="500", height="300" controls>
+                    <source src="./img/Germstones/infection.mp4" type="video/mp4">
+                </video>
+            </section>
+            <section class="text-with picture left">
+                <article>
+                    <h2>Infection System (Pt. 3)</h2>
+                    <p>Here is the infection cowntdown class, which serves as a timer for when an infection should happen. The "CanInfect" method is used to determine if the infection theshold has been reached, if it has, then the robot's infection level should rise.</p>
+                </article>
+                <img src="./img/Germstones/infection-class.png">
+            </section>
+            <section class="picture">
+                <img src="./img/Germstones/infection-increase.png">
+            </section>
+        </div>
+        
+    </main>
+
+    <footer id="footer"></footer>
+
+    <script src="./scripts/gen.js"></script>
+</body>
+</html>
