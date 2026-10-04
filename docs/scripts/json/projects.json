@@ -2,14 +2,22 @@
     "projects": [
         {
             "id": 1,
+            "title": "Germstones",
+            "description": "This game was made in the Unity Engine in less then 7 days for the Brackeys 2026.2 Game Jam. You play as an operator at a command line terminal, giving commands to a rover on the moon, where you need to collect valuable rocks. Some rocks are infected, however. If you pickup an infected rock, your rover will start losing health on every command. Some commands also increase the chance of a rock getting infected. Get as many rocks as you can before the infection takes control. I participated in the game's development as a programmer where I implemented the command system, the map design, and the infection system.",
+            "link": "https://github.com/F2022-AppDev-II/project-farmer-s-market-app",
+            "img_src": "./img/germstones-img.png",
+            "img_alt": "Germstones"
+        },
+        {
+            "id": 2,
             "title": "Cave Echoes",
-            "description": "This game was made in the Unity Engine in less then 7 days for the Brackeys 2025.2 Game Jam. You are a starving fruit bat, taking a risk to eat some legendary berries that only grow inside a dark, dangerous cave full of obstacles, tight tunnels, and vicious enemies. Use echolocation to clear your way and stay out of danger. You get hit once, and it's back to the start of the level. I led the development of this game as the Lead Programmer.",
+            "description": "This game was made in the Unity Engine in less then 7 days for the Brackeys 2025.2 Game Jam. You are a starving fruit bat, taking a risk to eat some legendary berries that only grow inside a dark, dangerous cave full of obstacles, tight tunnels, and vicious enemies. Use echolocation to clear your way and stay out of danger. You get hit once, and it's back to the start of the level. I led the development of this game as the Lead Programmer, where I implemented player movement, the echolocation mechanic, level transitions and cutscenes, enemy behavior, and UI.",
             "link": "https://samuelde.itch.io/cave-echoes",
             "img_src": "./img/KHSCng.png",
             "img_alt": "Cave Echoes"
         },
         {
-            "id": 2,
+            "id": 3,
             "title": "The Hungry Pufferfish",
             "description": "This game was made in the Unity Engine in less then 48 hours for the 2024 UdeM Game Jam. You play as a pufferfish tumbling down a series of hills, eating shrimps along the way to grow bigger in size. The heavier you are, the more chances you have to pass the various gates in your way. \nBy using Unity's 2D physics engine, this game is meant to better understand the concept and application of momentum for University of Montreal's students.",
             "link": "https://itch.io/jam/udem-game-jam-2024/rate/2604745",
@@ -17,7 +25,7 @@
             "img_alt": "The Hungry Pufferfish"
         },
         {
-            "id": 3,
+            "id": 4,
             "title": "Container Farm Management",
             "description": "This application was created with a team of classmates as my final project in John Abbott College. Created with .NET MAUI and Python, this application lets you connect to a physical container farm using Microsoft Azure's cloud computing technology, monitor its sensors and control its lock, alarm and lights.",
             "link": "https://github.com/SamuelDessureault/Container-Farm-Management",
@@ -25,7 +33,7 @@
             "img_alt": "Container Farm Management"
         },
         {
-            "id": 4,
+            "id": 5,
             "title": "Android Storefront Application",
             "description": "This application was created with a team of classmates as a project in John Abbott College. Created in Java with Android Studio, this application lets you see a mock storefront for a farmer's market. Users are allowed to look at a list of produce as well as add and remove items from the store. This is all implemented with an SQL database embedded into the Android device.",
             "link": "https://github.com/F2022-AppDev-II/project-farmer-s-market-app",
